@@ -1,0 +1,18 @@
+✔ finalized failed execution is never success (1.282163ms)
+✔ finalized consensus success (0.236577ms)
+✔ accepted is not finalized (0.16565ms)
+✔ undetermined is terminal failure (0.476418ms)
+✔ missing execution fails closed (0.242135ms)
+✔ missing wallet is explicit (0.769631ms)
+✔ account rejection propagated (0.265451ms)
+✔ wrong network switches before accounts (0.819757ms)
+✔ unknown chain adds and switches (0.389978ms)
+✔ empty wallet account rejected (3.584526ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 118.757226

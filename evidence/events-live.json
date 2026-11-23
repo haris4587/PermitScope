@@ -1,0 +1,228 @@
+[
+  {
+    "actor": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+    "at": 1795436934,
+    "chain_id": 61999,
+    "contract": "0xe78dC7a94f12575D7D2f1Dd7C8e3760C77a6cfbA",
+    "data": {
+      "issuer": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+      "permit": {
+        "capacity": 200,
+        "conditions": [
+          {
+            "critical": true,
+            "id": "music",
+            "rule": "Only unamplified acoustic music is permitted. No loudspeakers or electronic amplification."
+          },
+          {
+            "critical": true,
+            "id": "alcohol",
+            "rule": "No alcohol sale or service is permitted."
+          }
+        ],
+        "document": {
+          "bytes": 364,
+          "sha256": "448badbde27f9e648bef8f08c810bf227e7e999ae22df153192415c2c2f56def",
+          "source": "https://github.com/haris4587/PermitScope",
+          "text": "SYNTHETIC DEMONSTRATION PERMIT. Permit DEMO-PERMIT-001 for Riverside Hall. Valid 2026-12-30 17:00:00 UTC to 2026-12-30 21:00:00 UTC. Maximum capacity 200 people. Only unamplified acoustic music is permitted. No loudspeakers or electronic amplification. No alcohol sale or service is permitted. Issuer: demonstration account; no government authorization is implied."
+        },
+        "id": "DEMO-PERMIT-001",
+        "organizer": "0x67da51fd9ac1d52e34f5d01d06da8548979fc514",
+        "title": "Riverside community arts evening",
+        "valid_from": 1798650000,
+        "valid_until": 1798664400,
+        "venue": "Riverside Hall"
+      },
+      "permit_hash": "a6accba4ccd526264f9dbe92483703418b74524c8c7539a5a65e26423b0e4f6c"
+    },
+    "event_hash": "8158446dd49d958d3da3c07fe412ed5201e2123305122721a465dab65f249325",
+    "kind": "PERMIT_LOCKED",
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "record_id": "DEMO-PERMIT-001",
+    "sequence": 1,
+    "version": 1
+  },
+  {
+    "actor": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+    "at": 1795437256,
+    "chain_id": 61999,
+    "contract": "0xe78dC7a94f12575D7D2f1Dd7C8e3760C77a6cfbA",
+    "data": {
+      "issuer": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+      "permit": {
+        "capacity": 200,
+        "conditions": [
+          {
+            "critical": true,
+            "id": "music",
+            "rule": "Only unamplified acoustic music is permitted. No loudspeakers or electronic amplification."
+          },
+          {
+            "critical": true,
+            "id": "alcohol",
+            "rule": "No alcohol sale or service is permitted."
+          }
+        ],
+        "document": {
+          "bytes": 364,
+          "sha256": "992f72e9cd0b2b2daee128ce73081065abce804ca0968d66afc5e00268de19f7",
+          "source": "https://github.com/haris4587/PermitScope",
+          "text": "SYNTHETIC DEMONSTRATION PERMIT. Permit DEMO-PERMIT-002 for Riverside Hall. Valid 2026-12-30 17:00:00 UTC to 2026-12-30 21:00:00 UTC. Maximum capacity 200 people. Only unamplified acoustic music is permitted. No loudspeakers or electronic amplification. No alcohol sale or service is permitted. Issuer: demonstration account; no government authorization is implied."
+        },
+        "id": "DEMO-PERMIT-002",
+        "organizer": "0x67da51fd9ac1d52f34f5d01d06da8548979fc514",
+        "title": "Riverside community arts evening",
+        "valid_from": 1798650000,
+        "valid_until": 1798664400,
+        "venue": "Riverside Hall"
+      },
+      "permit_hash": "dcc63c41b91af8ccc913deb85694408ed7c89ab1009bc753bb82dedab83b426a"
+    },
+    "event_hash": "87fe0ff576701518688706af93d20b24d21c0e34e0597bade594d2eb58cb6b9a",
+    "kind": "PERMIT_LOCKED",
+    "previous_hash": "8158446dd49d958d3da3c07fe412ed5201e2123305122721a465dab65f249325",
+    "record_id": "DEMO-PERMIT-002",
+    "sequence": 2,
+    "version": 1
+  },
+  {
+    "actor": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+    "at": 1795437292,
+    "chain_id": 61999,
+    "contract": "0xe78dC7a94f12575D7D2f1Dd7C8e3760C77a6cfbA",
+    "data": {
+      "permit_hash": "dcc63c41b91af8ccc913deb85694408ed7c89ab1009bc753bb82dedab83b426a",
+      "plan_hash": "109011e41108629dd8e96272e7d5172568455d7d6ddc3004b6436fa7215d4522"
+    },
+    "event_hash": "0d4450fc5d19149a0d9003ce60704f3db98dfc861c6fedf9d57ee792c55d0a2f",
+    "kind": "PLAN_LOCKED",
+    "previous_hash": "87fe0ff576701518688706af93d20b24d21c0e34e0597bade594d2eb58cb6b9a",
+    "record_id": "DEMO-PLAN-001",
+    "sequence": 3,
+    "version": 1
+  },
+  {
+    "actor": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+    "at": 1795437341,
+    "chain_id": 61999,
+    "contract": "0xe78dC7a94f12575D7D2f1Dd7C8e3760C77a6cfbA",
+    "data": {
+      "attempt": 1,
+      "challenge": {},
+      "permit_hash": "dcc63c41b91af8ccc913deb85694408ed7c89ab1009bc753bb82dedab83b426a",
+      "plan_hash": "109011e41108629dd8e96272e7d5172568455d7d6ddc3004b6436fa7215d4522",
+      "result": {
+        "conditions": [],
+        "outcome": "COMPLIANT",
+        "unresolved": [],
+        "violations": []
+      },
+      "review": {
+        "findings": {
+          "alcohol": {
+            "permit_quote": "No alcohol sale or service is permitted.",
+            "plan_quote": "Water and soft drinks only. No alcohol will be sold or served.",
+            "status": "SATISFIED"
+          },
+          "music": {
+            "permit_quote": "Only unamplified acoustic music is permitted. No loudspeakers or electronic amplification.",
+            "plan_quote": "Unamplified acoustic guitar performance only. No loudspeakers or electronic amplification will be used.",
+            "status": "SATISFIED"
+          }
+        },
+        "integrity": "CONSISTENT"
+      }
+    },
+    "event_hash": "7cf5811c76f16699453e3d72e0a44896936f06f4829dec9e0da5dd7e916ba57c",
+    "kind": "ASSESSED",
+    "previous_hash": "0d4450fc5d19149a0d9003ce60704f3db98dfc861c6fedf9d57ee792c55d0a2f",
+    "record_id": "DEMO-PLAN-001",
+    "sequence": 4,
+    "version": 1
+  },
+  {
+    "actor": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+    "at": 1795437541,
+    "chain_id": 61999,
+    "contract": "0xe78dC7a94f12575D7D2f1Dd7C8e3760C77a6cfbA",
+    "data": {
+      "assessment_hash": "7cf5811c76f16699453e3d72e0a44896936f06f4829dec9e0da5dd7e916ba57c",
+      "reason": "Please independently recheck that acoustic performance does not imply electronic amplification, and that water and soft drinks do not imply alcohol service. This is a synthetic demonstration challenge, not new evidence."
+    },
+    "event_hash": "6371ce4677d43e7ededdf935a4a39d3de94a302874520426731671bd830adf01",
+    "kind": "CHALLENGED",
+    "previous_hash": "7cf5811c76f16699453e3d72e0a44896936f06f4829dec9e0da5dd7e916ba57c",
+    "record_id": "DEMO-PLAN-001",
+    "sequence": 5,
+    "version": 1
+  },
+  {
+    "actor": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+    "at": 1795437617,
+    "chain_id": 61999,
+    "contract": "0xe78dC7a94f12575D7D2f1Dd7C8e3760C77a6cfbA",
+    "data": {
+      "attempt": 2,
+      "challenge": {
+        "actor": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+        "at": 1795437541,
+        "chain_id": 61999,
+        "contract": "0xe78dC7a94f12575D7D2f1Dd7C8e3760C77a6cfbA",
+        "data": {
+          "assessment_hash": "7cf5811c76f16699453e3d72e0a44896936f06f4829dec9e0da5dd7e916ba57c",
+          "reason": "Please independently recheck that acoustic performance does not imply electronic amplification, and that water and soft drinks do not imply alcohol service. This is a synthetic demonstration challenge, not new evidence."
+        },
+        "event_hash": "6371ce4677d43e7ededdf935a4a39d3de94a302874520426731671bd830adf01",
+        "kind": "CHALLENGED",
+        "previous_hash": "7cf5811c76f16699453e3d72e0a44896936f06f4829dec9e0da5dd7e916ba57c",
+        "record_id": "DEMO-PLAN-001",
+        "sequence": 5,
+        "version": 1
+      },
+      "permit_hash": "dcc63c41b91af8ccc913deb85694408ed7c89ab1009bc753bb82dedab83b426a",
+      "plan_hash": "109011e41108629dd8e96272e7d5172568455d7d6ddc3004b6436fa7215d4522",
+      "result": {
+        "conditions": [],
+        "outcome": "COMPLIANT",
+        "unresolved": [],
+        "violations": []
+      },
+      "review": {
+        "findings": {
+          "alcohol": {
+            "permit_quote": "No alcohol sale or service is permitted.",
+            "plan_quote": "Water and soft drinks only. No alcohol will be sold or served.",
+            "status": "SATISFIED"
+          },
+          "music": {
+            "permit_quote": "Only unamplified acoustic music is permitted. No loudspeakers or electronic amplification.",
+            "plan_quote": "Unamplified acoustic guitar performance only. No loudspeakers or electronic amplification will be used.",
+            "status": "SATISFIED"
+          }
+        },
+        "integrity": "CONSISTENT"
+      }
+    },
+    "event_hash": "74fc4959dd677298f250825d287423a12fef0bc7c7907a986124662b368a8589",
+    "kind": "ASSESSED",
+    "previous_hash": "6371ce4677d43e7ededdf935a4a39d3de94a302874520426731671bd830adf01",
+    "record_id": "DEMO-PLAN-001",
+    "sequence": 6,
+    "version": 1
+  },
+  {
+    "actor": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+    "at": 1795437686,
+    "chain_id": 61999,
+    "contract": "0xe78dC7a94f12575D7D2f1Dd7C8e3760C77a6cfbA",
+    "data": {
+      "reason": "Withdrawn synthetic setup permit: organizer address was transcribed incorrectly. Active demo uses DEMO-PERMIT-002."
+    },
+    "event_hash": "8bc2c5301ac98d4735f7ab768a9a9592f9fb60474cbc3cf98359828ff7320db7",
+    "kind": "REVOKED",
+    "previous_hash": "74fc4959dd677298f250825d287423a12fef0bc7c7907a986124662b368a8589",
+    "record_id": "DEMO-PERMIT-001",
+    "sequence": 7,
+    "version": 1
+  }
+]

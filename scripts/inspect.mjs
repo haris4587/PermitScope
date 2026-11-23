@@ -1,0 +1,4 @@
+import fs from 'node:fs';import {createClient} from 'genlayer-js';import {studionet} from 'genlayer-js/chains';
+const c=createClient({chain:studionet}),d=JSON.parse(fs.readFileSync('evidence/deployment.json'));
+const t=await c.getTransaction({hash:d.deploy_hash});fs.writeFileSync('evidence/deploy-receipt.json',JSON.stringify(t,null,2));console.log(JSON.stringify({status:t.statusName,result:t.result_name,leader_only:t.leader_only,receipts:t.consensus_data?.leader_receipt?.map(x=>({execution_result:x.execution_result}))}));
+const code=await c.getContractCode(d.address);const remote=code.startsWith('0x')?Buffer.from(code.slice(2),'hex'):Buffer.from(code);const match=remote.equals(fs.readFileSync('contracts/permit_scope.py'));console.log('source matches',match);if(!match)throw Error('Source mismatch');

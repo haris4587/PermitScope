@@ -1,0 +1,15 @@
+{
+  "id": "DEMO-PLAN-001",
+  "permit_id": "DEMO-PERMIT-002",
+  "venue": "Riverside Hall",
+  "start": 1798651800,
+  "end": 1798660800,
+  "attendance": 150,
+  "activities": "Unamplified acoustic guitar performance, water and soft drinks; no alcohol, loudspeakers or electronic amplification.",
+  "document": {
+    "text": "SYNTHETIC DEMONSTRATION EVENT PLAN. Plan DEMO-PLAN-001 under permit DEMO-PERMIT-002. Venue Riverside Hall. Event 2026-12-30 17:30:00 UTC to 2026-12-30 20:00:00 UTC. Attendance 150 people. Unamplified acoustic guitar performance only. No loudspeakers or electronic amplification will be used. Water and soft drinks only. No alcohol will be sold or served.",
+    "sha256": "9ec1279c210bcd5e2d0ec992db46923ae47efe2d8a5ab240dca9b9aa260b54eb",
+    "bytes": 354,
+    "source": "https://github.com/haris4587/PermitScope"
+  }
+}

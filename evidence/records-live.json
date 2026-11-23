@@ -1,0 +1,111 @@
+{
+  "DEMO-PLAN-001": {
+    "plan": {
+      "activities": "Unamplified acoustic guitar performance, water and soft drinks; no alcohol, loudspeakers or electronic amplification.",
+      "attendance": 150,
+      "document": {
+        "bytes": 354,
+        "sha256": "9ec1279c210bcd5e2d0ec992db46923ae47efe2d8a5ab240dca9b9aa260b54eb",
+        "source": "https://github.com/haris4587/PermitScope",
+        "text": "SYNTHETIC DEMONSTRATION EVENT PLAN. Plan DEMO-PLAN-001 under permit DEMO-PERMIT-002. Venue Riverside Hall. Event 2026-12-30 17:30:00 UTC to 2026-12-30 20:00:00 UTC. Attendance 150 people. Unamplified acoustic guitar performance only. No loudspeakers or electronic amplification will be used. Water and soft drinks only. No alcohol will be sold or served."
+      },
+      "end": 1798660800,
+      "id": "DEMO-PLAN-001",
+      "permit_id": "DEMO-PERMIT-002",
+      "start": 1798651800,
+      "venue": "Riverside Hall"
+    },
+    "permit": {
+      "issuer": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+      "permit": {
+        "capacity": 200,
+        "conditions": [
+          {
+            "critical": true,
+            "id": "music",
+            "rule": "Only unamplified acoustic music is permitted. No loudspeakers or electronic amplification."
+          },
+          {
+            "critical": true,
+            "id": "alcohol",
+            "rule": "No alcohol sale or service is permitted."
+          }
+        ],
+        "document": {
+          "bytes": 364,
+          "sha256": "992f72e9cd0b2b2daee128ce73081065abce804ca0968d66afc5e00268de19f7",
+          "source": "https://github.com/haris4587/PermitScope",
+          "text": "SYNTHETIC DEMONSTRATION PERMIT. Permit DEMO-PERMIT-002 for Riverside Hall. Valid 2026-12-30 17:00:00 UTC to 2026-12-30 21:00:00 UTC. Maximum capacity 200 people. Only unamplified acoustic music is permitted. No loudspeakers or electronic amplification. No alcohol sale or service is permitted. Issuer: demonstration account; no government authorization is implied."
+        },
+        "id": "DEMO-PERMIT-002",
+        "organizer": "0x67da51fd9ac1d52f34f5d01d06da8548979fc514",
+        "title": "Riverside community arts evening",
+        "valid_from": 1798650000,
+        "valid_until": 1798664400,
+        "venue": "Riverside Hall"
+      },
+      "permit_hash": "dcc63c41b91af8ccc913deb85694408ed7c89ab1009bc753bb82dedab83b426a"
+    },
+    "assessment": {
+      "actor": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+      "at": 1795437617,
+      "chain_id": 61999,
+      "contract": "0xe78dC7a94f12575D7D2f1Dd7C8e3760C77a6cfbA",
+      "data": {
+        "attempt": 2,
+        "challenge": {
+          "actor": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+          "at": 1795437541,
+          "chain_id": 61999,
+          "contract": "0xe78dC7a94f12575D7D2f1Dd7C8e3760C77a6cfbA",
+          "data": {
+            "assessment_hash": "7cf5811c76f16699453e3d72e0a44896936f06f4829dec9e0da5dd7e916ba57c",
+            "reason": "Please independently recheck that acoustic performance does not imply electronic amplification, and that water and soft drinks do not imply alcohol service. This is a synthetic demonstration challenge, not new evidence."
+          },
+          "event_hash": "6371ce4677d43e7ededdf935a4a39d3de94a302874520426731671bd830adf01",
+          "kind": "CHALLENGED",
+          "previous_hash": "7cf5811c76f16699453e3d72e0a44896936f06f4829dec9e0da5dd7e916ba57c",
+          "record_id": "DEMO-PLAN-001",
+          "sequence": 5,
+          "version": 1
+        },
+        "permit_hash": "dcc63c41b91af8ccc913deb85694408ed7c89ab1009bc753bb82dedab83b426a",
+        "plan_hash": "109011e41108629dd8e96272e7d5172568455d7d6ddc3004b6436fa7215d4522",
+        "result": {
+          "conditions": [],
+          "outcome": "COMPLIANT",
+          "unresolved": [],
+          "violations": []
+        },
+        "review": {
+          "findings": {
+            "alcohol": {
+              "permit_quote": "No alcohol sale or service is permitted.",
+              "plan_quote": "Water and soft drinks only. No alcohol will be sold or served.",
+              "status": "SATISFIED"
+            },
+            "music": {
+              "permit_quote": "Only unamplified acoustic music is permitted. No loudspeakers or electronic amplification.",
+              "plan_quote": "Unamplified acoustic guitar performance only. No loudspeakers or electronic amplification will be used.",
+              "status": "SATISFIED"
+            }
+          },
+          "integrity": "CONSISTENT"
+        }
+      },
+      "event_hash": "74fc4959dd677298f250825d287423a12fef0bc7c7907a986124662b368a8589",
+      "kind": "ASSESSED",
+      "previous_hash": "6371ce4677d43e7ededdf935a4a39d3de94a302874520426731671bd830adf01",
+      "record_id": "DEMO-PLAN-001",
+      "sequence": 6,
+      "version": 1
+    },
+    "effective": {
+      "attempts": 2,
+      "challenge": {},
+      "documentary_only": true,
+      "revocation": {},
+      "status": "COMPLIANT"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "attempts": 1,
+  "challenge": {
+    "actor": "0x67Da51Fd9AC1d52F34F5d01d06da8548979fC514",
+    "at": 1795437541,
+    "chain_id": 61999,
+    "contract": "0xe78dC7a94f12575D7D2f1Dd7C8e3760C77a6cfbA",
+    "data": {
+      "assessment_hash": "7cf5811c76f16699453e3d72e0a44896936f06f4829dec9e0da5dd7e916ba57c",
+      "reason": "Please independently recheck that acoustic performance does not imply electronic amplification, and that water and soft drinks do not imply alcohol service. This is a synthetic demonstration challenge, not new evidence."
+    },
+    "event_hash": "6371ce4677d43e7ededdf935a4a39d3de94a302874520426731671bd830adf01",
+    "kind": "CHALLENGED",
+    "previous_hash": "7cf5811c76f16699453e3d72e0a44896936f06f4829dec9e0da5dd7e916ba57c",
+    "record_id": "DEMO-PLAN-001",
+    "sequence": 5,
+    "version": 1
+  },
+  "documentary_only": true,
+  "revocation": {},
+  "status": "OFFICIAL_REVIEW_REQUIRED"
+}

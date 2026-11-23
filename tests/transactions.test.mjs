@@ -1,0 +1,12 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {transactionState,connectBrowser} from '../web/transactions.js';
+const chain={id:61999,name:'Studio',nativeCurrency:{name:'GEN',symbol:'GEN',decimals:18},rpcUrls:{default:{http:['https://studio.genlayer.com/api']}}};
+test('finalized failed execution is never success',()=>assert.equal(transactionState({statusName:'FINALIZED',result_name:'MAJORITY_AGREE',consensus_data:{leader_receipt:[{execution_result:'ERROR'}]}}).success,false));
+test('finalized consensus success',()=>assert.equal(transactionState({statusName:'FINALIZED',result_name:'MAJORITY_AGREE',consensus_data:{leader_receipt:[{execution_result:'SUCCESS'}]}}).success,true));
+test('accepted is not finalized',()=>assert.equal(transactionState({statusName:'ACCEPTED'}).terminal,false));
+test('undetermined is terminal failure',()=>assert.deepEqual(transactionState({statusName:'UNDETERMINED'}).success,false));
+test('missing execution fails closed',()=>assert.equal(transactionState({statusName:'FINALIZED'}).success,false));
+test('missing wallet is explicit',async()=>assert.rejects(connectBrowser(null,chain),/No browser wallet/));
+test('account rejection propagated',async()=>assert.rejects(connectBrowser({request:async({method})=>{if(method==='eth_chainId')return '0xf22f';throw Error('User rejected');}},chain),/User rejected/));
+test('wrong network switches before accounts',async()=>{const calls=[];const account=await connectBrowser({request:async({method})=>{calls.push(method);return method==='eth_chainId'?'0x1':method==='eth_requestAccounts'?['0x'+'1'.repeat(40)]:null;}},chain);assert.equal(account,'0x'+'1'.repeat(40));assert.deepEqual(calls,['eth_chainId','wallet_switchEthereumChain','eth_requestAccounts']);});
+test('unknown chain adds and switches',async()=>{const calls=[];let switches=0;await connectBrowser({request:async({method})=>{calls.push(method);if(method==='eth_chainId')return '0x1';if(method==='wallet_switchEthereumChain'&&switches++===0)throw {code:4902};if(method==='eth_requestAccounts')return ['0x'+'1'.repeat(40)];}},chain);assert.deepEqual(calls,['eth_chainId','wallet_switchEthereumChain','wallet_addEthereumChain','wallet_switchEthereumChain','eth_requestAccounts']);});
+test('empty wallet account rejected',async()=>assert.rejects(connectBrowser({request:async({method})=>method==='eth_chainId'?'0xf22f':[]},chain),/no account/));

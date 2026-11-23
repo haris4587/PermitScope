@@ -1,0 +1,32 @@
+[
+  {
+    "action": "submit_plan",
+    "hash": "0x836a14356f6ac7e07b9438a8b16d7ac5104286ba85f39a5d80e43d7d6f6e4f93",
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "errors": [
+      "organizer only",
+      "organizer only"
+    ]
+  },
+  {
+    "action": "assess",
+    "hash": "0x3a7be3fe49e6ba48b486a7a47096d03c8de21ecfc3d2711571c2d2169b90f87c",
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "errors": [
+      "plan missing",
+      "plan missing"
+    ]
+  },
+  {
+    "action": "challenge_before_plan",
+    "hash": "0x3483df624105b6f49a3cab860ddb985ec485a9f71c0b76eaf59b29bad5fdd3f3",
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "errors": [
+      "assessed unchallenged plan required",
+      "assessed unchallenged plan required"
+    ]
+  }
+]

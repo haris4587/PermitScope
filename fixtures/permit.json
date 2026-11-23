@@ -1,0 +1,27 @@
+{
+  "id": "DEMO-PERMIT-002",
+  "organizer": "0x67da51fd9ac1d52f34f5d01d06da8548979fc514",
+  "title": "Riverside community arts evening",
+  "venue": "Riverside Hall",
+  "valid_from": 1798650000,
+  "valid_until": 1798664400,
+  "capacity": 200,
+  "conditions": [
+    {
+      "id": "music",
+      "rule": "Only unamplified acoustic music is permitted. No loudspeakers or electronic amplification.",
+      "critical": true
+    },
+    {
+      "id": "alcohol",
+      "rule": "No alcohol sale or service is permitted.",
+      "critical": true
+    }
+  ],
+  "document": {
+    "text": "SYNTHETIC DEMONSTRATION PERMIT. Permit DEMO-PERMIT-002 for Riverside Hall. Valid 2026-12-30 17:00:00 UTC to 2026-12-30 21:00:00 UTC. Maximum capacity 200 people. Only unamplified acoustic music is permitted. No loudspeakers or electronic amplification. No alcohol sale or service is permitted. Issuer: demonstration account; no government authorization is implied.",
+    "sha256": "992f72e9cd0b2b2daee128ce73081065abce804ca0968d66afc5e00268de19f7",
+    "bytes": 364,
+    "source": "https://github.com/haris4587/PermitScope"
+  }
+}

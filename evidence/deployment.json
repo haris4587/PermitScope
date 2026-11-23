@@ -1,0 +1,56 @@
+{
+  "network": "Studionet",
+  "chain_id": 61999,
+  "account": "0x67da51fd9ac1d52f34f5d01d06da8548979fc514",
+  "address": "0xe78dC7a94f12575D7D2f1Dd7C8e3760C77a6cfbA",
+  "deploy_hash": "0x31a728db56dba503e8c9ac05fe2022fa826ade60e9d7b3cfbb0cd2bafe0c38f9",
+  "status": "deployed",
+  "transactions": [
+    {
+      "action": "deploy",
+      "hash": "0x31a728db56dba503e8c9ac05fe2022fa826ade60e9d7b3cfbb0cd2bafe0c38f9"
+    },
+    {
+      "action": "register_permit",
+      "hash": "0xdc837496d51f8a41839ed155ca249a40d6a15deb7c1247aeec5860af16c07112"
+    },
+    {
+      "action": "register_corrected_permit",
+      "hash": "0xc3a3e1279533d10774210f7e334ad0fea6a75bf0d8c55da6053e41320c7e1f61"
+    },
+    {
+      "action": "submit_corrected_plan",
+      "hash": "0xd8805b2f095e4290ee734d50306db1be812f8d0028107ac40f027aa884ccd435"
+    },
+    {
+      "action": "assess_corrected_plan",
+      "hash": "0x011786457938cc53b6e1edf87e7f2433d1e7571e125b8df8203401adb2abb40b"
+    },
+    {
+      "action": "challenge",
+      "hash": "0x0b8bbdae0bfc493839fab3b78cf8d2b79e95b140aa06203618d1f9b550ea2d76"
+    },
+    {
+      "action": "reassess",
+      "hash": "0xf38730eb360dda3a8cc53144711f44b90d91c9b26b08f643eb9d76e8d7ee56ce"
+    },
+    {
+      "action": "revoke_unused_permit",
+      "hash": "0xbd2d158179df9de5f98b0f6dc6077e8d9e460aeeeb2d0939a55503f4df6584b1"
+    }
+  ],
+  "expected_failures": [
+    {
+      "action": "submit_plan",
+      "hash": "0x836a14356f6ac7e07b9438a8b16d7ac5104286ba85f39a5d80e43d7d6f6e4f93"
+    },
+    {
+      "action": "assess",
+      "hash": "0x3a7be3fe49e6ba48b486a7a47096d03c8de21ecfc3d2711571c2d2169b90f87c"
+    },
+    {
+      "action": "challenge_before_plan",
+      "hash": "0x3483df624105b6f49a3cab860ddb985ec485a9f71c0b76eaf59b29bad5fdd3f3"
+    }
+  ]
+}

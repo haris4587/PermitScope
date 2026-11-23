@@ -1,0 +1,15 @@
+{
+  "integrity": "CONSISTENT",
+  "findings": {
+    "music": {
+      "status": "SATISFIED",
+      "permit_quote": "Only unamplified acoustic music is permitted.",
+      "plan_quote": "Unamplified acoustic guitar performance only."
+    },
+    "alcohol": {
+      "status": "SATISFIED",
+      "permit_quote": "No alcohol sale or service is permitted.",
+      "plan_quote": "No alcohol will be sold or served."
+    }
+  }
+}
